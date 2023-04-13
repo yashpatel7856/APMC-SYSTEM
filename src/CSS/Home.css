@@ -1,0 +1,101 @@
+.container{
+    
+}
+.abc{
+    width: 100%;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+.heading{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    background: rgb(44, 118, 14);
+}
+
+.welcome{
+    font-style: italic;
+    text-align: center;
+}
+.user{
+    display: flex;
+    width: 30%;
+    height:auto;
+    padding: 20px;
+    margin: 15px;
+    background: rgb(19, 92, 161);
+}
+
+.prof{
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+}
+.newssec,lates_news{
+    display: flexbox;
+    flex-direction: column-reverse;
+    font-size:14px;
+    height: 100px;
+    width: 175px;
+    background-color: lightgreen;
+    text-align: left;
+}
+
+.main,.about,.new,.demand{
+    /* background: url(../img/car2.webp); */
+    background: #9dd1d4;
+    background-size:cover;
+    height: 100vh;
+    border-bottom: 5px black;
+    margin: auto;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'robot';
+}
+
+.btn-1{
+    height: 45px;
+    width:35%;
+    border:none;
+    outline: none;
+    background-color: rgb(248,26,92) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.user-2 a {
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    margin: 15px;
+}
+.btn-2{
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+    border: black;
+    outline: none;
+    background-color: rgb(28, 100, 168);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.btn-1:hover{
+    background-color: #c42712;
+    transition: 0.5s;
+}
+
+.card :hover{
+    -webkit-box-shadow: 6px 5px 22px 3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 6px 5px 22px 3px rgba(0,0,0,0.74);
+    box-shadow: 6px 5px 22px 3px rgba(0,0,0,0.74);
+    transition: 0.5s;
+}

@@ -1,0 +1,41 @@
+.info{
+    background: #eae4e4;
+    border-radius: 20px;
+}
+
+.img {
+    border-radius: 15px;
+    box-shadow: 15px;
+}
+
+.bx {
+    width:100%;
+}
+.sidebar{
+    height: 100%;
+    background-color: white;
+    border-radius: 7px;
+    text-align: left;
+    font-size: large;
+}
+.dt{
+    padding-left: 5px;
+    background: white;
+    border-radius: 7px;
+    color: black;
+}
+.dt li{
+
+    text-decoration:none;
+    text-align: left;
+    color: white;
+}
+
+.dt li a{
+    color:green;
+    font-weight: 700;
+}
+.dt li a :hover{
+    transition: 300;
+    color: lightgreen;
+}

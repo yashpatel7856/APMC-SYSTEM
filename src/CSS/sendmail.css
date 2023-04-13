@@ -1,0 +1,15 @@
+.fullbody{
+    
+    background: #9DD1D4;
+    height: 1000px;
+}
+
+.sendcont{
+    position: fixed;
+  left: 900px;
+  top: 300px;
+  align-content: center;
+  width: auto;
+  background: whitesmoke;
+  border-radius: 25px;
+}

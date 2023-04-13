@@ -1,0 +1,98 @@
+.news-container{
+    width: 90%;
+    position: relative;
+    top: 0;
+    left:0 ;
+    right: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+    float: left;
+}
+
+.news-container .title{
+    position: absolute;
+    background: #df2020;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    font-weight: bold;
+    z-index: 200;
+}
+
+.news-container ul{
+    width: 100%;
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    /* animation: scroll 15s infinite; */
+    -moz-transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+                -moz-animation: scroll-left 2s linear infinite;
+                -webkit-animation: scroll-left 2s linear infinite;
+                animation: scroll-left 20s linear infinite;
+}
+.news-container ul li{
+    white-space: nowrap;
+    padding: 10px 24px;
+    color: #494949;
+    position: relative;
+}
+
+.news-container ul li::after{
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news-container ul li:last-child::after{
+    display:none ;
+}
+
+/*Previous CSS for Marquee NEws*/
+/* @keyframes scroll {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform:translateX(-50%)
+    }
+} */
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
